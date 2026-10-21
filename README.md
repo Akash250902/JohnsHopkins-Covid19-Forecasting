@@ -31,8 +31,10 @@ The full brief is in [`Problem Statement/`](Problem%20Statement/).
 
 ## Key Results
 
-- Best model on the 30-day test MAE: **Linear Regression (lag features)**
-- Its 30-day India forecast averages about **109k cases/day**, compared with about **91.6k/day** over the last 7 days of data.
+- Best model: Linear Regression (lag features)
+- Test MAE: about 6,600 cases/day | MAPE: 8.2%
+- 67.6% improvement over a 7-day average baseline
+- 30-day India forecast averages about 109k cases/day vs about 91.6k/day over the last 7 days
 
 See the notebook for the full comparison table and charts.
 
