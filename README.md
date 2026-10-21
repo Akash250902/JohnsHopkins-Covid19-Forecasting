@@ -6,7 +6,7 @@ Capstone project **PRCP-1023** (Healthcare domain). The project analyses the Joh
 
 1. Prepare a complete data analysis report on the given data.
 2. Fix a prediction period and build a model to forecast COVID-19 cases for a specific country or region.
-3. Give suggestions to the government health department based on the predictions.
+3. **Model comparison:** ARIMA and regression models with lag features compared against a 7-day average baseline on a held-out 30-day test window using MAE.
 
 Plus a **Model Comparison Report** and a **Report on Challenges Faced**.
 
@@ -57,7 +57,7 @@ See the notebook for the full comparison table and charts.
    ```
 2. Install the libraries:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+   pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
    ```
 3. Point the notebook to the data folder (optional, the default is `dataset/`):
    ```bash
@@ -71,7 +71,7 @@ See the notebook for the full comparison table and charts.
 
 ## Tech Stack
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Jupyter Notebook
+Python, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, statsmodels, Jupyter Notebook
 
 ## Author
 
